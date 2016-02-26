@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="appToolbarStyle">@style/AppToolbarStyle</item>
+    </style>
+
+    <style name="AppToolbarStyle">
+        <item name="android:background">#ff404040</item>
+        <item name="android:theme">@style/AppToolbarStyle.ToolbarTheme</item>
+    </style>
+
+    <style name="AppToolbarStyle.ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+
+</resources>
